@@ -8,6 +8,7 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
+
 class Ui_Form(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
@@ -28,15 +29,15 @@ class Ui_Form(object):
         self.verticalLayout_2 = QtWidgets.QVBoxLayout(self.groupBox_5)
         self.verticalLayout_2.setObjectName("verticalLayout_2")
         self.label = QtWidgets.QLabel(self.groupBox_5)
-        self.label.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
+        self.label.setAlignment(QtCore.Qt.AlignRight | QtCore.Qt.AlignTrailing | QtCore.Qt.AlignVCenter)
         self.label.setObjectName("label")
         self.verticalLayout_2.addWidget(self.label)
         self.label_2 = QtWidgets.QLabel(self.groupBox_5)
-        self.label_2.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
+        self.label_2.setAlignment(QtCore.Qt.AlignRight | QtCore.Qt.AlignTrailing | QtCore.Qt.AlignVCenter)
         self.label_2.setObjectName("label_2")
         self.verticalLayout_2.addWidget(self.label_2)
         self.label_3 = QtWidgets.QLabel(self.groupBox_5)
-        self.label_3.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
+        self.label_3.setAlignment(QtCore.Qt.AlignRight | QtCore.Qt.AlignTrailing | QtCore.Qt.AlignVCenter)
         self.label_3.setObjectName("label_3")
         self.verticalLayout_2.addWidget(self.label_3)
         self.horizontalLayout.addWidget(self.groupBox_5)
@@ -95,19 +96,19 @@ class Ui_Form(object):
         self.verticalLayout_5 = QtWidgets.QVBoxLayout(self.groupBox_4)
         self.verticalLayout_5.setObjectName("verticalLayout_5")
         self.res_1 = QtWidgets.QSpinBox(self.groupBox_4)
-        self.res_1.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
+        self.res_1.setAlignment(QtCore.Qt.AlignRight | QtCore.Qt.AlignTrailing | QtCore.Qt.AlignVCenter)
         self.res_1.setReadOnly(True)
         self.res_1.setButtonSymbols(QtWidgets.QAbstractSpinBox.NoButtons)
         self.res_1.setObjectName("res_1")
         self.verticalLayout_5.addWidget(self.res_1)
         self.res_2 = QtWidgets.QSpinBox(self.groupBox_4)
-        self.res_2.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
+        self.res_2.setAlignment(QtCore.Qt.AlignRight | QtCore.Qt.AlignTrailing | QtCore.Qt.AlignVCenter)
         self.res_2.setReadOnly(True)
         self.res_2.setButtonSymbols(QtWidgets.QAbstractSpinBox.NoButtons)
         self.res_2.setObjectName("res_2")
         self.verticalLayout_5.addWidget(self.res_2)
         self.res_3 = QtWidgets.QSpinBox(self.groupBox_4)
-        self.res_3.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
+        self.res_3.setAlignment(QtCore.Qt.AlignRight | QtCore.Qt.AlignTrailing | QtCore.Qt.AlignVCenter)
         self.res_3.setReadOnly(True)
         self.res_3.setButtonSymbols(QtWidgets.QAbstractSpinBox.NoButtons)
         self.res_3.setObjectName("res_3")
@@ -157,4 +158,3 @@ class Ui_Form(object):
         self.groupBox_4.setTitle(_translate("Form", "Результат"))
         self.groupBox_6.setTitle(_translate("Form", "Кроки"))
         self.pushButton.setText(_translate("Form", "Розрахувати"))
-

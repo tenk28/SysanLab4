@@ -15,7 +15,7 @@ class Ui_OperatorWindow(object):
     def setupUi(self, OperatorWindow):
         OperatorWindow.setObjectName("OperatorWindow")
         OperatorWindow.resize(1200, 800)
-        OperatorWindow.setStyleSheet("background-color: rgb(0, 195, 255);")
+        OperatorWindow.setStyleSheet("background-color: rgb(254, 205, 166);")
         self.windowLayout = QtWidgets.QVBoxLayout(OperatorWindow)
         self.windowLayout.setObjectName("windowLayout")
         self.y_layout = QtWidgets.QVBoxLayout()
@@ -48,4 +48,4 @@ class Ui_OperatorWindow(object):
         _translate = QtCore.QCoreApplication.translate
         OperatorWindow.setWindowTitle(_translate("OperatorWindow", "Моделювання"))
         self.start_button.setText(_translate("OperatorWindow", "Старт"))
-        self.start_button.setStyleSheet("background-color: rgb(230, 249, 255); font-weight: bold")
+        self.start_button.setStyleSheet("background-color: rgb(166, 207, 152); font-weight: bold")
